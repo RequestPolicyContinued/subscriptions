@@ -2,7 +2,7 @@
   "subscriptions" : {
     "allow_embedded" : {
       "serial" : 1329159661,
-      "url" : "http://subscription.requestpolicy.com/subs/official/allow_embedded.json"
+      "url" : "https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_embedded.json"
     },
     "allow_extensions" : {
       "serial" : 1329159661,
@@ -18,11 +18,11 @@
     },
     "allow_sameorg" : {
       "serial" : 1334341442,
-      "url" : "http://subscription.requestpolicy.com/subs/official/allow_sameorg.json"
+      "url" : "https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/allow_sameorg.json"
     },
     "deny_trackers" : {
       "serial" : 1334334931,
-      "url" : "http://subscription.requestpolicy.com/subs/official/deny_trackers.json"
+      "url" : "https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/deny_trackers.json"
     }
   }
 }

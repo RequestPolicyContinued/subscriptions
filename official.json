@@ -4,18 +4,6 @@
       "serial" : 1329159661,
       "url" : "https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_embedded.json"
     },
-    "allow_extensions" : {
-      "serial" : 1329159661,
-      "url" : "http://subscription.requestpolicy.com/subs/official/allow_extensions.json"
-    },
-    "allow_functionality" : {
-      "serial" : 1329159661,
-      "url" : "http://subscription.requestpolicy.com/subs/official/allow_functionality.json"
-    },
-    "allow_mozilla" : {
-      "serial" : 1329159661,
-      "url" : "http://subscription.requestpolicy.com/subs/official/allow_mozilla.json"
-    },
     "allow_sameorg" : {
       "serial" : 1334341442,
       "url" : "https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/allow_sameorg.json"

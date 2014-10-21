@@ -1,0 +1,28 @@
+{
+  "subscriptions" : {
+    "allow_embedded" : {
+      "serial" : 1329159661,
+      "url" : "http://subscription.requestpolicy.com/subs/official/allow_embedded.json"
+    },
+    "allow_extensions" : {
+      "serial" : 1329159661,
+      "url" : "http://subscription.requestpolicy.com/subs/official/allow_extensions.json"
+    },
+    "allow_functionality" : {
+      "serial" : 1329159661,
+      "url" : "http://subscription.requestpolicy.com/subs/official/allow_functionality.json"
+    },
+    "allow_mozilla" : {
+      "serial" : 1329159661,
+      "url" : "http://subscription.requestpolicy.com/subs/official/allow_mozilla.json"
+    },
+    "allow_sameorg" : {
+      "serial" : 1334341442,
+      "url" : "http://subscription.requestpolicy.com/subs/official/allow_sameorg.json"
+    },
+    "deny_trackers" : {
+      "serial" : 1334334931,
+      "url" : "http://subscription.requestpolicy.com/subs/official/deny_trackers.json"
+    }
+  }
+}

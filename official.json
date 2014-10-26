@@ -1,16 +1,16 @@
 {
-  "subscriptions" : {
-    "allow_embedded" : {
-      "serial" : 1329159661,
-      "url" : "https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_embedded.json"
+  "subscriptions":{
+    "allow_embedded":{
+      "serial":1329159661,
+      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_embedded.json"
     },
-    "allow_sameorg" : {
-      "serial" : 1334341442,
-      "url" : "https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/allow_sameorg.json"
+    "allow_sameorg":{
+      "serial":1334341442,
+      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/allow_sameorg.json"
     },
-    "deny_trackers" : {
-      "serial" : 1334334931,
-      "url" : "https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/deny_trackers.json"
+    "deny_trackers":{
+      "serial":1334334931,
+      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/deny_trackers.json"
     }
   }
 }

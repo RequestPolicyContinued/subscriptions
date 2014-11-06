@@ -5,7 +5,6 @@
   },
   "entries":{
     "allow":[
-      // Amazon
       {"o":{"h":"*.amazon.ca"},"d":{"h":"*.images-amazon.com"}},
       {"o":{"h":"*.amazon.ca"},"d":{"h":"*.ssl-images-amazon.com"}},
       {"o":{"h":"*.amazon.com"},"d":{"h":"*.amazonaws.com"}},
@@ -13,10 +12,8 @@
       {"o":{"h":"*.amazon.com"},"d":{"h":"*.images-amazon.com"}},
       {"o":{"h":"*.amazon.com"},"d":{"h":"*.ssl-images-amazon.com"}},
 
-      // AOL
       {"o":{"h":"*.aol.com"},"d":{"h":"*.aolcdn.com"}},
 
-      // Ebay
       {"o":{"h":"*.ebay.ca"},"d":{"h":"*.ebay.com"}},
       {"o":{"h":"*.ebay.ca"},"d":{"h":"*.ebaystatic.com"}},
       {"o":{"h":"*.ebay.com"},"d":{"h":"*.ebay.ca"}},
@@ -25,10 +22,8 @@
       {"o":{"h":"*.ebay.com"},"d":{"h":"*.ebayrtm.com"}},
       {"o":{"h":"*.ebay.com"},"d":{"h":"*.ebaystatic.com"}},
 
-      // Facebook
       {"o":{"h":"*.facebook.com"},"d":{"h":"*.fbcdn.net"}},
 
-      // Google
       {"o":{"h":"*.blogger.com"},"d":{"h":"*.google.com"}},
       {"o":{"h":"*.blogspot.com"},"d":{"h":"*.blogger.com"}},
       {"o":{"h":"*.blogspot.com"},"d":{"h":"*.google.com"}},
@@ -55,7 +50,6 @@
       {"o":{"h":"*.youtube.com"},"d":{"h":"*.googlevideo.com"}},
       {"o":{"h":"*.youtube.com"},"d":{"h":"*.ytimg.com"}},
 
-      // Microsoft
       {"o":{"h":"*.hotmail.com"},"d":{"h":"*.passport.com"}},
       {"o":{"h":"*.live.com"},"d":{"h":"*.hotmail.com"}},
       {"o":{"h":"*.live.com"},"d":{"h":"*.microsoft.com"}},
@@ -68,22 +62,16 @@
       {"o":{"h":"*.msn.com"},"d":{"h":"*.live.com"}},
       {"o":{"h":"*.passport.com"},"d":{"h":"*.live.com"}},
 
-      // Myspace
       {"o":{"h":"*.myspace.com"},"d":{"h":"*.myspacecdn.com"}},
 
-      // PayPal
       {"o":{"h":"*.paypal.com"},"d":{"h":"*.paypalobjects.com"}},
       {"o":{"h":"*.paypal.com"},"d":{"h":"*.paypal-search.com"}},
       {"o":{"h":"*.paypal-search.com"},"d":{"h":"*.paypal.com"}},
       {"o":{"h":"*.paypal-search.com"},"d":{"h":"*.paypalobjects.com"}},
 
-      // sourceforge
       {"o":{"h":"*.sf.net"},"d":{"h":"*.sourceforge.net"}},
       {"o":{"h":"*.sourceforge.net"},"d":{"h":"*.fsdn.com"}},
 
-      // StackExchange
-      // see http://stackexchange.com/sites?view=list#newest
-      // (there's a sites feed: http://stackexchange.com/feeds/sites)
       {"o":{"h":"*.askubuntu.com"},"d":{"h":"*.sstatic.net"}},
       {"o":{"h":"*.onstartups.com"},"d":{"h":"*.sstatic.net"}},
       {"o":{"h":"*.serverfault.com"},"d":{"h":"*.stackoverflow.com"}},
@@ -92,8 +80,6 @@
       {"o":{"h":"*.stackoverflow.com"},"d":{"h":"*.sstatic.net"}},
       {"o":{"h":"*.superuser.com"},"d":{"h":"*.sstatic.net"}},
 
-      // Wikimedia
-      // see http://wikimediafoundation.org/wiki/Our_projects
       {"o":{"h":"*.wikibooks.org"},"d":{"h":"*.wikimedia.org"}},
       {"o":{"h":"*.wikinews.org"},"d":{"h":"*.wikimedia.org"}},
       {"o":{"h":"*.wikipedia.com"},"d":{"h":"*.wikipedia.org"}},
@@ -101,7 +87,8 @@
       {"o":{"h":"*.wikiversity.org"},"d":{"h":"*.wikimedia.org"}},
       {"o":{"h":"*.wiktionary.org"},"d":{"h":"*.wikimedia.org"}},
 
-      // still unsorted:
+
+
       {"o":{"h":"*.cnet.com"},"d":{"h":"*.com.com"}},
       {"o":{"h":"*.cnn.com"},"d":{"h":"*.cnn.net"}},
       {"o":{"h":"*.download.com"},"d":{"h":"*.com.com"}},
@@ -303,11 +290,6 @@
       {"o":{"h":"*.deviantart.com"},"d":{"h":"*.deviantart.net"}},
       {"o":{"h":"*.shopzilla.com"},"d":{"h":"*.shopzilla-images.com"}},
       {"o":{"h":"*.soundcloud.com"},"d":{"h":"*.sndcdn.com"}},
-
-      // entries like paypal <--> ebay shouldn't be in "allow_sameorg"
-      // TODO: find more
-      // TODO: create a separate list, e.g. called "suggested allows" or
-      //       "allow_functionality"
       {"o":{"h":"*.paypal.com"},"d":{"h":"*.ebaystatic.com"}}
     ],
     "deny":[]

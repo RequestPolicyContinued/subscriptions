@@ -6,11 +6,11 @@
     },
     "allow_sameorg":{
       "serial":1334341442,
-      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/allow_sameorg.json"
+      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_sameorg.json"
     },
     "deny_trackers":{
       "serial":1334334931,
-      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/deny_trackers.json"
+      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-deny_trackers.json"
     }
   }
 }

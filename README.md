@@ -11,5 +11,5 @@ Enabling a subscription will load a preconfigured allow/deny policy for certain 
 Currently this repository only contains the _official_ subscriptions, copied from the original project on requestpolicy.com.
 
 ## Contributing
-If you think a rule should be added to official subscriptions, of if you would like to submit your own subscription list, let us know in the [issues tracker](issues) of this repository.
+If you think a rule should be added to official subscriptions, of if you would like to submit your own subscription list, let us know in the [issues tracker](https://github.com/RequestPolicyContinued/subscriptions/issues) of this repository.
 If you have a question or remark about how RequestPolicy Continued handles subscriptions, check the [main project issue tracker](https://github.com/RequestPolicyCOntinued/requestpolicy/issues).

@@ -401,7 +401,7 @@
 {"o":{"h":"*.zdnet.com"},"d":{"h":"*.zdnetstatic.com"}},
 {"o":{"h":"*.zillow.com"},"d":{"h":"*.zillowstatic.com"}},
 {"o":{"h":"*.zoho.com"},"d":{"h":"*.zohostatic.com"}},
-{"o":{"h":"*urbanspoon.com"},"d":{"h":"*.urbancdn.com"}},
+{"o":{"h":"*.urbanspoon.com"},"d":{"h":"*.urbancdn.com"}},
     ],
     "deny":[]
   }

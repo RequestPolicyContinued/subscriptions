@@ -95,8 +95,8 @@
       {"o":{"h":"*.wikiversity.org"},"d":{"h":"*.wikimedia.org"}},
       {"o":{"h":"*.wiktionary.org"},"d":{"h":"*.wikimedia.org"}},
       
-    {"o":{"h":"*.1and1.co.uk"},"d":{"h":"*.1und1.de"}},
-    {"o":{"h":"*.1and1.com"},"d":{"h":"*.1und1.de"}},
+      {"o":{"h":"*.1and1.co.uk"},"d":{"h":"*.1und1.de"}},
+      {"o":{"h":"*.1and1.com"},"d":{"h":"*.1und1.de"}},
     ],
     "deny":[]
   }

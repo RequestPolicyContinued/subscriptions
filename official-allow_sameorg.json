@@ -197,7 +197,18 @@
       {"o":{"h":"*.shopzilla.com"},"d":{"h":"*.bizrate.com"}},
       {"o":{"h":"*.bizrate.com"},"d":{"h":"*.shopzilla.com"}},
       {"o":{"h":"*.shopzilla.com"},"d":{"h":"*.shopzilla-images.com"}},
-      {"o":{"h":"*.paypal-search.com"},"d":{"h":"*.paypal.com"}}
+      {"o":{"h":"*.paypal-search.com"},"d":{"h":"*.paypal.com"}},
+      {"o":{"h":"*.aeriagames.com"},"d":{"h":"*.aeriastatic.com"}},
+      {"o":{"h":"*.baidu.com"},"d":{"h":"*.bdstatic.com"}},
+      {"o":{"h":"*.ancestry.com"},"d":{"h":"*.mfcreative.com"}},
+      {"o":{"h":"*.autodesk.com"},"d":{"h":"*.autodesk.net"}},
+      {"o":{"h":"*.barnesandnoble.com"},"d":{"h":"*.imagesbn.com"}},
+      {"o":{"h":"*.bigfishgames.com"},"d":{"h":"*.bigfishsites.com"}},
+      {"o":{"h":"*.bing.com"},"d":{"h":"*.bing.net"}},
+      {"o":{"h":"*.bleepingcomputer.com"},"d":{"h":"*.bleepstatic.com"}},
+      {"o":{"h":"*.curse.com"},"d":{"h":"*.cursecdn.com"}},
+      {"o":{"h":"*.dripbook.com"},"d":{"h":"*.dripimg.com"}},
+      {"o":{"h":"*.dripbook.com"},"d":{"h":"*.dripstatic.com"}}
     ],
     "deny":[]
   }

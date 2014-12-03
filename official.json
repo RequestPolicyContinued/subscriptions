@@ -5,7 +5,7 @@
       "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_embedded.json"
     },
     "allow_sameorg":{
-      "serial":1334341442,
+      "serial"::2014120101,
       "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_sameorg.json"
     },
     "deny_trackers":{

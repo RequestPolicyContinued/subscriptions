@@ -15,8 +15,16 @@
       {"o":{"h":"*.ebay.com"},"d":{"h":"*.ebaystatic.com"}},
       {"o":{"h":"*.ebay.fr"},"d":{"h":"*.ebaystatic.com"}},
       {"o":{"h":"*.ebay.fr"},"d":{"h":"*.ebayimg.com"}},
+      {"o":{"h":"*.ebay.fr"},"d":{"h":"*.ebay.com"}},
+      {"o":{"h":"*.ebay.fr"},"d":{"h":"*.ebaydesc.com"}},
+      {"o":{"h":"*.ebay.co.uk"},"d":{"h":"*.ebay.com"}},
+      {"o":{"h":"*.ebay.co.uk"},"d":{"h":"*.ebaystatic.com"}},
+      {"o":{"h":"*.ebay.com.au"},"d":{"h":"*.ebay.com"}},
+      {"o":{"h":"*.ebay.com.au"},"d":{"h":"*.ebaystatic.com"}},
+      {"o":{"h":"*.ebaydesc.com"},"d":{"h":"*.ebaystatic.com"}},
       {"o":{"h":"*.facebook.com"},"d":{"h":"*.akamaihd.net"}},
       {"o":{"h":"*.facebook.com"},"d":{"h":"*.fbcdn.net"}},
+      {"o":{"h":"*.fb.me"},"d":{"h":"*.facebook.com"}},
       {"o":{"h":"*.google.com"},"d":{"h":"*.gstatic.com"}},
       {"o":{"h":"*.youtube.com"},"d":{"h":"*.ytimg.com"}},
       {"o":{"h":"*.youtube.com"},"d":{"h":"*.googlevideo.com"}},
@@ -189,10 +197,7 @@
       {"o":{"h":"*.shopzilla.com"},"d":{"h":"*.bizrate.com"}},
       {"o":{"h":"*.bizrate.com"},"d":{"h":"*.shopzilla.com"}},
       {"o":{"h":"*.shopzilla.com"},"d":{"h":"*.shopzilla-images.com"}},
-      {"o":{"h":"*.paypal-search.com"},"d":{"h":"*.paypal.com"}},
-      {"o":{"h":"*.ebay.fr"},"d":{"h":"*.ebay.com"}},
-      {"o":{"h":"*.ebay.fr"},"d":{"h":"*.ebaydesc.com"}},
-      {"o":{"h":"*.ebaydesc.com"},"d":{"h":"*.ebaystatic.com"}}
+      {"o":{"h":"*.paypal-search.com"},"d":{"h":"*.paypal.com"}}
     ],
     "deny":[]
   }

@@ -66,6 +66,7 @@ The next step is to **add rules for top sites for specific countries**. Workflow
    * Pick a country you want to work on and report it as a [new issue](https://github.com/RequestPolicyContinued/subscriptions/issues/new)
    * Grab traffic data from http://www.alexa.com/topsites/countries
    * Create a new, blank firefox profile with only RequestPolicy enabled.
+   * In the preferences, enable the subscription you want to work on to avoid duplicating already established rules.
    * Visit each listed domain, one by one. For each:
      * check if a blocked domain causes basic display/functionality breakage.
      * check this domain owner info using WHOIS

@@ -4,6 +4,10 @@
       "serial":1329159661,
       "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_embedded.json"
     },
+    "allow_functionality":{
+      "serial":2014120402,
+      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_functionality.json"
+    },
     "allow_sameorg":{
       "serial":2014120401,
       "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_sameorg.json"

@@ -1,0 +1,28 @@
+{
+  "metadata":{
+    "version":1,
+    "serial":2014120402
+  },
+  "entries":{
+    "allow":[
+		{"o":{"h":"*.facebook.com"},"d":{"h":"*.akamaihd.net"}},
+		{"o":{"h":"*.instagram.com"},"d":{"h":"*.d36xtkk24g8jdx.cloudfront.net"}},
+		{"o":{"h":"*.instagram.com"},"d":{"h":"*.instagram-static.s3.amazonaws.com"}},
+		{"o":{"h":"*.microsoftstore.com"},"d":{"h":"*.digitalrivercontent.net"}},
+		{"o":{"h":"*.stackoverflow.com"},"d":{"h":"*.imgur.com"}},
+		{"o":{"h":"*.stackoverflow.com"},"d":{"h":"*.ajax.googleapis.com"}},
+		{"o":{"h":"*.stackexchange.com"},"d":{"h":"*.imgur.com"}},
+		{"o":{"h":"*.stackexchange.com"},"d":{"h":"*.ajax.googleapis.com"}},
+		{"o":{"h":"*.superuser.com"},"d":{"h":"*.imgur.com"}},
+		{"o":{"h":"*.superuser.com"},"d":{"h":"*.ajax.googleapis.com"}},
+		{"o":{"h":"*.serverfault.com"},"d":{"h":"*.imgur.com"}},
+		{"o":{"h":"*.serverfault.com"},"d":{"h":"*.ajax.googleapis.com"}},
+		{"o":{"h":"*.askubuntu.com"},"d":{"h":"*.imgur.com"}},
+		{"o":{"h":"*.askubuntu.com"},"d":{"h":"*.ajax.googleapis.com"}},
+		{"o":{"h":"*.dropbox.com"},"d":{"h":"*.dt8kf6553cww8.cloudfront.net"}},
+		{"o":{"h":"*.bitbucket.org"},"d":{"h":"*.d3oaxc4q5k2d6q.cloudfront.net"}}
+	],
+    "deny":[]
+  }
+}
+

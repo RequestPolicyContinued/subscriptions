@@ -82,7 +82,6 @@
       {"o":{"h":"*.lifehacker.com"},"d":{"h":"*.kinja-img.com"}},
       {"o":{"h":"*.lifehacker.com"},"d":{"h":"*.kinja-static.com"}},
       {"o":{"h":"*.bitbucket.com"},"d":{"h":"*.bitbucket.org"}},
-
       {"o":{"h":"*.github.com"},"d":{"h":"*.avatars0.githubusercontent.com"}},
       {"o":{"h":"*.github.com"},"d":{"h":"*.avatars3.githubusercontent.com"}},
       {"o":{"h":"*.github.com"},"d":{"h":"*.avatars2.githubusercontent.com"}},

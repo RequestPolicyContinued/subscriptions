@@ -67,15 +67,18 @@ The next step is to **add rules for top sites for specific countries**. Workflow
    * Grab traffic data from http://www.alexa.com/topsites/countries
    * Create a new, blank firefox profile with only RequestPolicy enabled.
    * In the preferences, enable the subscription you want to work on to avoid duplicating already established rules.
+   * Fork this repository on github, and open `json` files on your fork and start editing
    * Visit each listed domain, one by one. For each:
      * check if a blocked domain causes basic display/functionality breakage.
      * check this domain owner info using WHOIS
-     * if the destination domain owner matches the origin owner, add a rule for this origin->destination pair at the end of `official-allow_sameorg.json`
+     * if the destination domain owner matches the origin owner, add a rule for this origin->destination pair at the end of `official-allow_sameorg.json` (If the subscription grows too large in the future, it will be split - [#1](https://github.com/RequestPolicyContinued/subscriptions/issues/1))
      * if owners/organizations/companies don't match, but the request is still required for the website to work properly, add the rule to `official-allow_functionality.json`
-   * Do not reorder/sort existing rules. (https://github.com/RequestPolicyContinued/subscriptions/issues/1). Check for duplicate rules, check JSON validity (http://jsonlint.com/)
-   * If the subscription grows too large in the future it will be split (https://github.com/RequestPolicyContinued/subscriptions/issues/1)
+   * Do not reorder/sort existing rules. (Rules that affect a particular site should stay grouped). Check for duplicate rules (`sort official-allow_sameorg.json |uniq -c`), check JSON validity (http://jsonlint.com/).
+   * When you think you're done, commit your changes and submit a Pull Request with a proper description so that it can be reviewed.
+
 
 A few bash tricks that may help reviewing/building subscriptions:
+
 ```
 function wh() { #get relevant info about domain owners
   whois "$1" | grep -i registrant
@@ -87,7 +90,7 @@ function rprule() {
   echo "{\"o\":{\"h\":\"*.$1\"},\"d\":{\"h\":\"*.$2\"}}," | xclip -selection c
 }
 
-sort official-allow_sameorg.json |uniq -c |sort #check for duplicates in file
+ |sort #check for duplicates in file
 ```
 
 #### Improving the _deny trackers_ list

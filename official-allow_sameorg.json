@@ -1,7 +1,7 @@
 {
   "metadata":{
     "version":1,
-    "serial":2014120401
+    "serial":2014122101
   },
   "entries":{
     "allow":[
@@ -259,14 +259,10 @@
       {"o":{"h":"*.bing.com"},"d":{"h":"*.virtualearth.net"}},
       {"o":{"h":"*.bing.com"},"d":{"h":"*.live.com"}},
       {"o":{"h":"*.ask.com"},"d":{"h":"*.bing.net"}},
-      {"o":{"h":"*.google.de"},"d":{"h":"*.google.com"}},
-      {"o":{"h":"*.google.de"},"d":{"h":"*.gstatic.com"}},
       {"o":{"h":"*.pinterest.com"},"d":{"h":"*.pnimg.com"}},
       {"o":{"h":"*.huffingtonpost.com"},"d":{"h":"*.huffpost.com"}},
       {"o":{"h":"*.sohu.com"},"d":{"h":"*.itc.cn"}},
       {"o":{"h":"*.instagram.com"},"d":{"h":"*.cdninstagram.com"}},
-      {"o":{"h":"*.mail.ru"},"d":{"h":"*.mradx.net"}},
-      {"o":{"h":"*.mail.ru"},"d":{"h":"*.imgsmail.ru"}},
       {"o":{"h":"*.aliexpress.com"},"d":{"h":"*.alicdn.com"}},
       {"o":{"h":"*.aliexpress.com"},"d":{"h":"*.aliunicorn.com"}},
       {"o":{"h":"*.aliexpress.com"},"d":{"h":"*.aliimg.com"}},

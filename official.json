@@ -9,7 +9,7 @@
       "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_functionality.json"
     },
     "allow_sameorg":{
-      "serial":2014120401,
+      "serial":2014122101,
       "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_sameorg.json"
     },
     "deny_trackers":{

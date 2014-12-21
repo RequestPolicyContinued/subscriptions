@@ -1,7 +1,7 @@
 {
   "metadata":{
     "version":1,
-    "serial":2014120402
+    "serial":2014121801
   },
   "entries":{
     "allow":[
@@ -20,7 +20,45 @@
 		{"o":{"h":"*.askubuntu.com"},"d":{"h":"*.imgur.com"}},
 		{"o":{"h":"*.askubuntu.com"},"d":{"h":"*.ajax.googleapis.com"}},
 		{"o":{"h":"*.dropbox.com"},"d":{"h":"*.dt8kf6553cww8.cloudfront.net"}},
-		{"o":{"h":"*.bitbucket.org"},"d":{"h":"*.d3oaxc4q5k2d6q.cloudfront.net"}}
+		{"o":{"h":"*.bitbucket.org"},"d":{"h":"*.d3oaxc4q5k2d6q.cloudfront.net"}},
+		{"o":{"h":"*.addons.videolan.org"},"d":{"h":"*.vlc-addons.org"}},
+		{"o":{"h":"*.graphhopper.com"},"d":{"h":"*.lyrk.org"}},
+		{"o":{"h":"*.graphhopper.com"},"d":{"h":"*.openstreetmap.org"}},
+		{"o":{"h":"*.graphhopper.com"},"d":{"h":"*.thunderforest.com"}},
+		{"o":{"h":"*.graphhopper.com"},"d":{"h":"*.mqcdn.com"}},
+		{"o":{"h":"*.graphhopper.com"},"d":{"h":"*.openstreetmap.de"}},
+		{"o":{"h":"*.graphhopper.com"},"d":{"h":"*.uni-hd.de"}},
+		{"o":{"h":"*.graphhopper.com"},"d":{"h":"*.wanderreitkarte.de"}},
+		{"o":{"h":"*.hackaday.com"},"d":{"h":"*.wordpress.com"}},
+		{"o":{"h":"*.hackaday.com"},"d":{"h":"*.wp.com"}},
+		{"o":{"h":"*.alternativeto.net"},"d":{"h":"*.msecnd.net"}},
+		{"o":{"h":"*.gta4.net"},"d":{"h":"*.gtanet.com"}},
+		{"o":{"h":"*.builtwith.com"},"d":{"h":"*.cdnpi.pe"}},
+		{"o":{"h":"*.google.fr"},"d":{"h":"*.ggpht.com"}},
+		{"o":{"h":"*.ouich.es"},"d":{"h":"*.ajax.googleapis.com"}},
+		{"o":{"h":"*.winscp.net"},"d":{"h":"*.cdn77.net"}},
+		{"o":{"h":"*.google.com"},"d":{"h":"*.google.fr"}},
+		{"o":{"h":"*.photoswipe.com"},"d":{"h":"*.staticflickr.com"}},
+		{"o":{"h":"*.google.com"},"d":{"h":"*.npackd.appspot.com"}},
+		{"o":{"h":"*.leparisien.fr"},"d":{"h":"*.lprs1.fr"}},
+		{"o":{"h":"*.arstechnica.com"},"d":{"h":"*.arstechnica.net"}},
+		{"o":{"h":"*.theonion.com"},"d":{"h":"*.onionstatic.com"}},
+		{"o":{"h":"*.gmail.com"},"d":{"h":"*.google.com"}},
+		{"o":{"h":"*.autodesk.com"},"d":{"h":"*.autodesk.net"}},
+		{"o":{"h":"*.preuves-par-images.fr"},"d":{"h":"*.vk.com"}},
+		{"o":{"h":"*.npackd.appspot.com"},"d":{"h":"*.ajax.googleapis.com"}},
+		{"o":{"h":"*.npackd.appspot.com"},"d":{"h":"*.googleusercontent.com"}},
+		{"o":{"h":"*.npackd.appspot.com"},"d":{"h":"*.google.com"}},
+		{"o":{"h":"*.ixquick-proxy.com"},"d":{"h":"*.startpage.com"}},
+		{"o":{"h":"*.allocine.fr"},"d":{"h":"*.2mdn.net"}},
+		{"o":{"h":"*.allocine.fr"},"d":{"h":"*.dmcdn.net"}},
+		{"o":{"h":"*.io9.com"},"d":{"h":"*.kinja-img.com"}},
+		{"o":{"h":"*.io9.com"},"d":{"h":"*.kinja-static.com"}},
+		{"o":{"h":"*.npackd.appspot.com"},"d":{"h":"*.bootstrapcdn.com"}},
+		{"o":{"h":"*.vimeo.com"},"d":{"h":"*.akamaihd.net"}},
+		{"o":{"h":"*.osmcamera.tk"},"d":{"h":"*.leafletjs.com"}},
+		{"o":{"h":"*.osmcamera.tk"},"d":{"h":"*.mqcdn.com"}},
+		{"o":{"h":"*.osmcamera.tk"},"d":{"h":"*.mapquest.com"}}
 	],
     "deny":[]
   }

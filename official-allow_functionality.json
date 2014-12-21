@@ -1,7 +1,7 @@
 {
   "metadata":{
     "version":1,
-    "serial":2014121801
+    "serial":2014122101
   },
   "entries":{
     "allow":[
@@ -58,7 +58,44 @@
 		{"o":{"h":"*.vimeo.com"},"d":{"h":"*.akamaihd.net"}},
 		{"o":{"h":"*.osmcamera.tk"},"d":{"h":"*.leafletjs.com"}},
 		{"o":{"h":"*.osmcamera.tk"},"d":{"h":"*.mqcdn.com"}},
-		{"o":{"h":"*.osmcamera.tk"},"d":{"h":"*.mapquest.com"}}
+		{"o":{"h":"*.osmcamera.tk"},"d":{"h":"*.mapquest.com"}},
+		{"o":{"h":"*.github.com"},"d":{"h":"*.avatars2.githubusercontent.com"}},
+		{"o":{"h":"*.github.com"},"d":{"h":"*.avatars3.githubusercontent.com"}},
+		{"o":{"h":"*.github.com"},"d":{"h":"*.avatars0.githubusercontent.com"}},
+		{"o":{"h":"*.github.com"},"d":{"h":"*.avatars.githubusercontent.com"}},
+		{"o":{"h":"*.github.com"},"d":{"h":"*.avatars1.githubusercontent.com"}},
+		{"o":{"h":"*.leboncoin.fr"},"d":{"h":"193.164.196.60"}},
+		{"o":{"h":"*.leboncoin.fr"},"d":{"h":"193.164.196.30"}},
+		{"o":{"h":"*.leboncoin.fr"},"d":{"h":"193.164.196.40"}},
+		{"o":{"h":"*.leboncoin.fr"},"d":{"h":"193.164.196.50"}},
+		{"o":{"h":"*.leboncoin.fr"},"d":{"h":"193.164.197.40"}},
+		{"o":{"h":"*.leboncoin.fr"},"d":{"h":"193.164.197.60"}},
+		{"o":{"h":"*.leboncoin.fr"},"d":{"h":"193.164.197.50"}},
+		{"o":{"h":"*.leboncoin.fr"},"d":{"h":"193.164.197.30"}},
+		{"o":{"h":"*.reddit.com"},"d":{"h":"*.redditstatic.com"}},
+		{"o":{"h":"*.reddit.com"},"d":{"h":"*.redditmedia.com"}},
+		{"o":{"h":"*.reddit.com"},"d":{"h":"*.s3.amazonaws.com"}},
+		{"o":{"h":"*.stackoverflow.com"},"d":{"h":"*.gravatar.com"}},
+		{"o":{"h":"*.stackoverflow.com"},"d":{"h":"*.sstatic.net"}},
+		{"o":{"h":"*.stackoverflow.com"},"d":{"h":"*.stackauth.com"}},
+		{"o":{"h":"*.youtube.com"},"d":{"h":"*.google.fr"}},
+		{"o":{"h":"*.sourceforge.net"},"d":{"h":"*.fsdn.com"}},
+		{"o":{"h":"*.fa2png.io"},"d":{"h":"*.bootstrapcdn.com"}},
+		{"o":{"h":"*.fa2png.io"},"d":{"h":"*.fonts.googleapis.com"}},
+		{"o":{"h":"*.fa2png.io"},"d":{"h":"*.jquery.com"}},
+		{"o":{"h":"*.plus.googleapis.com"},"d":{"h":"*.googleusercontent.com"}},
+		{"o":{"h":"*.plus.googleapis.com"},"d":{"h":"*.gstatic.com"}},
+		{"o":{"h":"*.youtube.com"},"d":{"h":"*.ggpht.com"}},
+		{"o":{"h":"*.youtube.com"},"d":{"h":"*.gstatic.com"}},
+		{"o":{"h":"*.disqus.com"},"d":{"h":"*.disquscdn.com"}},
+		{"o":{"h":"*.atlassian.net"},"d":{"h":"*.d2ogta62n7lwcx.cloudfront.net"}},
+		{"o":{"h":"*.wordpress.org"},"d":{"h":"*.w.org"}},
+		{"o":{"h":"*.github.com"},"d":{"h":"*.s3.amazonaws.com"}},
+		{"o":{"h":"*.github.com"},"d":{"h":"*.raw.githubusercontent.com"}},
+		{"o":{"h":"*.webupd8.org"},"d":{"h":"*.bp.blogspot.com"}},
+		{"o":{"h":"*.webupd8.org"},"d":{"h":"*.dcyvwahnmi61u.cloudfront.net"}},
+		{"o":{"h":"*.jsfiddle.net"},"d":{"h":"*.jshell.net"}},
+		{"o":{"h":"*.jsfiddle.net"},"d":{"h":"*.togetherjs.com"}}
 	],
     "deny":[]
   }

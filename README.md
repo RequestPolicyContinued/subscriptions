@@ -57,25 +57,41 @@ See [How to read subscriptions files](#how-to-read-subscriptions-files) for info
 -------------------------------------------
 
 ## Contributing
+If you have a question or remark about how RequestPolicy Continued handles subscriptions, check the [main project issue tracker](https://github.com/RequestPolicyContinued/requestpolicy/labels/subscriptions).
 
-#### Country-specific allow lists
+If you'd like a rule to be **removed** from the subscriptions, please file a new [issue](https://github.com/RequestPolicyContinued/subscriptions/issues/) stating the reason why it should be removed.
 
-The next step is to **add rules for top sites for specific countries**. Workflow:
+If you want your rules **added** to the official subscriptions, please mind the following:
 
-   * Read this README
-   * Pick a country you want to work on and report it as a [new issue](https://github.com/RequestPolicyContinued/subscriptions/issues/new)
-   * Grab traffic data from http://www.alexa.com/topsites/countries
-   * Create a new, blank firefox profile with only RequestPolicy enabled.
-   * In the preferences, enable the subscription you want to work on to avoid duplicating already established rules.
-   * Fork this repository on github, and open `json` files on your fork and start editing
-   * Visit each listed domain, one by one. For each:
-     * check if a blocked domain causes basic display/functionality breakage.
-     * check this domain owner info using WHOIS
-     * if the destination domain owner matches the origin owner, add a rule for this origin->destination pair at the end of `official-allow_sameorg.json` (If the subscription grows too large in the future, it will be split - [#1](https://github.com/RequestPolicyContinued/subscriptions/issues/1))
-     * if owners/organizations/companies don't match, but the request is still required for the website to work properly, add the rule to `official-allow_functionality.json`
-   * Do not reorder/sort existing rules. (Rules that affect a particular site should stay grouped). Check for duplicate rules (`sort official-allow_sameorg.json |uniq -c`), check JSON validity (http://jsonlint.com/).
-   * When you think you're done, commit your changes and submit a Pull Request with a proper description so that it can be reviewed.
+ * [Create a blank Firefox profile](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles), with only RequestPolicy Continued installed.
+ * In your RequestPolicy preferences, enable the subscription you want to work on to avoid duplicating already established rules.
+ * **Allow rules should be kept to a minimum** (no pretty fonts, no tracking scripts, no ad networks, no optional sharing widgets...)
+ * Do not reorder/sort existing rules. (Rules that affect a particular site should stay grouped, and this helps reviewing your changes). 
+ * Check for duplicate rules (eg. `sort official-allow_sameorg.json |uniq -c |sort`), check JSON validity (http://jsonlint.com/) before doing a pull request.
+ * Read this README
 
+
+#### Adding rules
+You can also help by adding your rules for sites you like:
+
+ * [Fork](https://github.com/RequestPolicyContinued/subscriptions/fork) this repository.
+ * Visit your favorite sites, one by one. You can also work on top websites from http://www.alexa.com/topsites/countries
+ * For each site, check if a blocked domain causes basic display/functionality breakage.
+
+ * Copy rules from your `policies/user.json` in your firefox profile directory to `official_allow-functionality.json` in your copy of the subscriptions repository, one rule per line.
+  * `user.json` stores all rules on a single line ([issue 339](https://github.com/RequestPolicyContinued/requestpolicy/issues/339)). To convert your rules to the one-rule-per-line format used in subscriptions, replace `}},` with `}},\n` in your file. This helps copying rules to the subscription file.
+ * When done, commit your changes and submit a Pull Request with a proper description so that it can be reviewed.
+
+
+#### Adding rules to allow_sameorg.json
+It is easier to add all rules in `official_allow-functionality.json` first. You can also help by adding rules to `official_allow-sameorg.json`, either directly, or by moving already existing rules from `official_allow-functionality.json`. In this case:
+
+   * check this domain owner info using WHOIS
+   * if the destination domain owner matches the origin owner, add a rule for this origin->destination pair at the end of `official-allow_sameorg.json` (If the subscription grows too large in the future, it will be split - [#1](https://github.com/RequestPolicyContinued/subscriptions/issues/1))
+   * if owners/organizations/companies don't match, but the request is still required for the website to work properly, the rule should remain in `official-allow_functionality.json`
+
+
+#### Tips
 
 A few bash tricks that may help reviewing/building subscriptions:
 
@@ -90,18 +106,12 @@ function rprule() {
   echo "{\"o\":{\"h\":\"*.$1\"},\"d\":{\"h\":\"*.$2\"}}," | xclip -selection c
 }
 
- |sort #check for duplicates in file
 ```
 
 #### Improving the _deny trackers_ list
 
-Additions to the _deny trackers_ list are welcome.
+Additions to the _deny trackers_ list are also welcome.
 
-
-#### Questions/additions/removal requests
-
-If you think a rule should be added/removed from official subscriptions, let us know in the [issues tracker](https://github.com/RequestPolicyContinued/subscriptions/issues) of this repository.
-If you have a question or remark about how RequestPolicy Continued handles subscriptions, check the [main project issue tracker](https://github.com/RequestPolicyContinued/requestpolicy/labels/subscriptions).
 
 --------------------------------------------------------------------------------
 

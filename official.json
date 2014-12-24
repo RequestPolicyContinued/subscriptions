@@ -1,4 +1,8 @@
 {
+  "l10n":{
+    "serial":2014122401,
+    "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/locale.json"
+  },
   "subscriptions":{
     "allow_embedded":{
       "serial":1329159661,

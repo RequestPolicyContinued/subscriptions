@@ -7,15 +7,15 @@
       },
       "allow_functionality":{
         "title":"Accepter les requêtes nécessaires aux fonctionnement de certains sites Web",
-        "description":"Contient des règles 'accepter' qui permettent à certains sites de s'afficher et de fonctionner correctement, même si le propriétaire du domaine de destination de la requête n'est pas le même que celui du domaine d'origine. Les règles pour les fonctionnalités qui ne font pas partie des fonctionnalités de base des sites ne sont pas incluses."
+        "description":"Contient des règles 'accepter' absolument nécessaires pour un bon fonctionnement des fonctionnalités principales de certains sites, même si le propriétaire du domaine de destination de la requête n'est pas le même que celui du domaine d'origine."
       },
       "allow_sameorg":{
         "title":"Accepter les requêtes vers des destinations appartenant à la même organisation que le domaine d'origine",
-        "description":"Contient uniquement des règles 'accepter' absolument nécessaires pour un bon fonctionnement des fonctionnalités principales des sites. Si le domaine de destination n'appartient pas à la même organisation, personne, ou société que le domaine d'origine, la règle ne doit pas êtreincluse dans cette souscription."
+        "description":"Contient des règles 'accepter' absolument nécessaires pour un bon fonctionnement des fonctionnalités principales de certains sites, ET dont le propriétaire du domaine de destination de la requête est le même que celui du domaine d'origine."
       },
       "deny_trackers":{
         "title":"Bloquer les requêtes vers des domaines connus pour tracer votre navigation",
-        "description":"Cette souscription contient une liste de domaines connus pour surveiller/tracer votre navigation à travers le Web. Elle est particulièrement utilepour fournir une sécurité/confidentialité minimale si vous utilisez _Accepter les requêtes_ comme politique par défaut."
+        "description":"Cette souscription contient une liste de domaines connus pour surveiller/tracer votre navigation à travers le Web. Elle est particulièrement utile pour fournir une sécurité/confidentialité minimale si vous utilisez _Accepter les requêtes_ comme politique par défaut."
       }
     }
   }

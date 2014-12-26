@@ -78,29 +78,35 @@ function rprule() {
 
 Additions to the _deny trackers_ list are also welcome.
 
+#### Translating subscriptions titles and descriptions
+Look at `locale.json` and feel free to add the translations for subscriptions titles and language there.
+
 
 --------------------------------------------------------------------------------
 
 ## How to read subscriptions files
-RequestPolicy Continued fetches available subscriptions from **subscription lists**. [official.json](official.json) is the default subscription list (the only list currently) Each **subscription list** lists several **subscriptions**.
+RequestPolicy Continued fetches available subscriptions from **subscription lists**. [official.json](official.json) is the default subscription list (the only list currently) Each **subscription list** lists several **subscriptions**, which contain the actual rules.
 
 
 
-The subscriptions **lists** file format is the following:
+The **subscriptions lists** file format is the following (eg. `official.json`):
 
 ```
 {
   "subscriptions":{ 
     "allow_embedded":{ <- short name of the subscription.
-      "serial":1329159661, <- a serial number; RP compares your local file serial number to the one available online, and updates you file if it has a lower serial.
-      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_embedded.json", <- the URL from which the new subscriptions should be downloaded
+      "serial":1329159661, <- a serial number; RP compares your local file serial number to the one available online, and updates your file if it has a lower serial.
+      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_embedded.json", <- the URL from which up-to-date subscription rules should be downloaded
       "title":"Your title here", <- the title of this subscription
-      "description":"This subscription does this." <- a description of what purpose this subscription serves, how it work
+      "description":"This subscription does this." <- a description of what purpose this subscription serves, how it works
       },
     "another_subscription_here": { ...
 ```
 
-The subscription file format is the following:
+`locale.json` contains translations for each subscription's list and title.
+
+
+The **subscription** file format is the following (eg. `official-allow_functionality.json`):
 
 ```
 {

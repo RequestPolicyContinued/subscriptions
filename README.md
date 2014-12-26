@@ -4,53 +4,19 @@ Subscriptions for RequestPolicy
 Subscriptions for the [RequestPolicyContinued](https://requestpolicycontinued.github.io/) Firefox addon.
 
 Subscriptions are preset rules for RequestPolicy Continued. Subscriptions are configurable through the `Preferences -> Manage Policies -> Subscriptions` menu of the addon.
+
 Enabling a subscription will load a preconfigured allow/deny policy for certain sites. For example, subscriptions can:
  * Block some known web tracking services.
  * Allow certain sites to work properly (allow them to request some required elements form other domains)
  
 
-## How subscriptions work
-The default available subscriptions are:
-
-
-#### [allow_sameorg](official-allow_sameorg.json) - Allow destinations that belong to the same organization as the origin webpage
-
-Contains only rules absolutely for the website's core functionality to work.
- 
-Examples: a shopping website should allow shopping, a voting website should allow voting, a videos website should allow watching videos, a file hosting website should allow usual operations with files...
- 
-If the destination is not the **same organization, person, or company** as the origin, the rule does not qualify for `official-allow_sameorg.json`. If it is still absolutely necessary for the site to work properly, it is added to `official-allow_functionality.json`
-   
-#### [allow_functionality](official-allow_functionality.json) - Allow requests that are needed for websites to work properly
-
-Contains only rules absolutely for the website to work, but that do not qualify for `official-allow_sameorg.json`
- 
-Functionality that is not a core part of the site (comment systems, sharing via external services...) should not be included. 
-
-
-#### [deny_trackers](official-deny_trackers.json) - Blocks some websites known for tracking your web browsing habits
-
-This contains a list of websites that are known for tracking your browsing across the web. This is mainly useful to provide a minima security/privacy when using the _Allow all requests by default_ default policy.
-
-#### [allow_embedded](official-allow_embedded.json) - Allow requests for embedded content such as images and videos
-
-**Broken.** Suggested solution: Drop this subscription.
-
- * Implement _"bundles"_ in RequestPolicy (_"groups"?_) for different content types (fonts, videos, maps, CDNs...), depends on https://github.com/RequestPolicyContinued/requestpolicy/issues/338 and https://github.com/RequestPolicyContinued/requestpolicy/issues/166#issuecomment-65426226.
-  * This will add the ability to whitelist/blacklist whole groups from the menu.
-   * Examples: `Allow requests to **Videos** group`, `Allow requests to **Videos** group from *.thisdomain.com`
-  * If really necessary, these bundles will be added as new subscriptions.
-   * The only benefit is the ability to allow requests for these bundles during initial setup. Otherwise users will just have to `Allow requests to **Videos** group` the first time they are blocked.
-
-
----------------------------------
+-------------------------------------------
 
 ## What is included in subscriptions
-You can check what requests are affected by different subscriptions by manually inspecting the files mentioned above. On your computer, RequestPolicy downloads subscriptions to the following locations:
+You can check what requests are affected by different subscriptions by manually inspecting the subscription files. On your computer, RequestPolicy downloads subscriptions to the following locations:
 
  * Linux: `~/.mozilla/firefox/$profile_dir/requestpolicy/policies/subscriptions/`
  * Windows: `C:\Users\%USERNAME\AppData\Roaming\Mozilla\Firefox\Profiles\%PROFILE_DIR\requestpolicy\policies\subscriptions\`
-
 
 See [How to read subscriptions files](#how-to-read-subscriptions-files) for information on the file format.
 
@@ -112,33 +78,41 @@ function rprule() {
 
 Additions to the _deny trackers_ list are also welcome.
 
+#### Translating subscriptions titles and descriptions
+Look at `locale.json` and feel free to add the translations for subscriptions titles and language there.
+
 
 --------------------------------------------------------------------------------
 
-#### How to read subscriptions files
-RequestPolicy Continued fetches available subscriptions from **subscription lists**. [official.json](official.json) is the default subscription list (the only list currently) Each **subscription list** lists several **subscriptions**.
+## How to read subscriptions files
+RequestPolicy Continued fetches available subscriptions from **subscription lists**. [official.json](official.json) is the default subscription list (the only list currently) Each **subscription list** lists several **subscriptions**, which contain the actual rules.
 
 
 
-The subscriptions **lists** file format is the following:
+The **subscriptions lists** file format is the following (eg. `official.json`):
 
 ```
 {
   "subscriptions":{ 
     "allow_embedded":{ <- short name of the subscription.
-      "serial":1329159661, <- a serial number; RP compares your local file serial number to the one available online, and updates you file if it has a lower serial.
-      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_embedded.json" <- the URL from which the new subscriptions should be downloaded
+      "serial":1329159661, <- a serial number; RP compares your local file serial number to the one available online, and updates your file if it has a lower serial.
+      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_embedded.json", <- the URL from which up-to-date subscription rules should be downloaded
+      "title":"Your title here", <- the title of this subscription
+      "description":"This subscription does this." <- a description of what purpose this subscription serves, how it works
       },
     "another_subscription_here": { ...
 ```
 
-The subscription file format is the following:
+`locale.json` contains translations for each subscription's list and title.
+
+
+The **subscription** file format is the following (eg. `official-allow_functionality.json`):
 
 ```
 {
   "metadata":{
     "version":1,
-    "serial":1334341442 <- a serial number; RP compares your local file serial number to the one available online, and updates you file if it has a lower serial.
+    "serial":1334341442 <- a serial number; RP compares your local file serial number to the one available online, and updates your file if it has a lower serial.
   },
   "entries":{ <- this marks the begginning of the actual subscription rules
     "allow":[ <- rules in this section are requests that will be **allowed** by RequestPolicy
@@ -151,4 +125,4 @@ The subscription file format is the following:
 }
 ```
 
-For each rule, `"o:"{"h":"*.hostname.org"}` is the **o**rigin **h**ost for the request, `"d":{"h":"*.another.com"}` is the **d**estination **h**ost for this request. What action is applied to this particular requests depends on which section it is listed in (`"allow":[` or `"deny":[`)
+For each rule, `"o:"{"h":"*.hostname.org"}` is the origin host for the request, `"d":{"h":"*.another.com"}` is the destination host for this request. What action is applied to this particular requests depends on which section it is listed in (`"allow":[` or `"deny":[`)

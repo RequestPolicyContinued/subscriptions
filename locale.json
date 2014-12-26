@@ -1,0 +1,22 @@
+{
+  "fr":{
+    "subscriptions":{
+      "allow_embedded":{
+        "title":"Accepter les requêtes vers du contenu embarqué, comme des images ou des vidéos",
+        "description":"Cette souscription est actuellement hors-service et sera probablement retirée. Veuillez consulter https://github.com/RequestPolicyContinued/requestpolicy/issues/338 et https://github.com/RequestPolicyContinued/requestpolicy/issues/166#issuecomment-65426226."
+      },
+      "allow_functionality":{
+        "title":"Accepter les requêtes nécessaires aux fonctionnement de certains sites Web",
+        "description":"Contient des règles 'accepter' absolument nécessaires pour un bon fonctionnement des fonctionnalités principales de certains sites, même si le propriétaire du domaine de destination de la requête n'est pas le même que celui du domaine d'origine."
+      },
+      "allow_sameorg":{
+        "title":"Accepter les requêtes vers des destinations appartenant à la même organisation que le domaine d'origine",
+        "description":"Contient des règles 'accepter' absolument nécessaires pour un bon fonctionnement des fonctionnalités principales de certains sites, ET dont le propriétaire du domaine de destination de la requête est le même que celui du domaine d'origine."
+      },
+      "deny_trackers":{
+        "title":"Bloquer les requêtes vers des domaines connus pour tracer votre navigation",
+        "description":"Cette souscription contient une liste de domaines connus pour surveiller/tracer votre navigation à travers le Web. Elle est particulièrement utile pour fournir une sécurité/confidentialité minimale si vous utilisez _Accepter les requêtes_ comme politique par défaut."
+      }
+    }
+  }
+}

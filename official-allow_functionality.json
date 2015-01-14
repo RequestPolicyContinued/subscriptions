@@ -172,7 +172,7 @@
 		{"o":{"h":"*.delicious.com"},"d":{"h":"*.s3.amazonaws.com"}},
 		{"o":{"h":"*.thomann.de"},"d":{"h":"*.static-thomann.de"}},
 		{"o":{"h":"*.thomann.fr"},"d":{"h":"*.thomann.de"}},
-		{"o":{"h":"*.iprobot.net"},"d":{"h":"*.serverfreak.com"}},
+		{"o":{"h":"*.iprobot.net"},"d":{"h":"*.serverfreak.com"}}
 	],
     "deny":[]
   }

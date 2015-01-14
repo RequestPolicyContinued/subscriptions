@@ -1,7 +1,7 @@
 {
   "metadata":{
     "version":1,
-    "serial":1334334931
+    "serial":2015011401
   },
   "entries":{
     "allow":[
@@ -105,7 +105,35 @@
       {"d":{"h":"*.webtrends.com"}},
       {"d":{"h":"*.webtrendslive.com"}},
       {"d":{"h":"*.yieldmanager.com"}},
-      {"d":{"h":"*.zedo.com"}}
+      {"d":{"h":"*.zedo.com"}},
+      {"d":{"h":"*.googletagservices.com"}},
+      {"d":{"h":"*.xiti.com"}},
+      {"d":{"h":"*.pubnub.com"}},
+      {"d":{"h":"*.fastyou.com"}},
+      {"d":{"h":"*.cedexis.com"}},
+      {"d":{"h":"*.newrelic.com"}},
+      {"d":{"h":"*.quintelligence.com"}},
+      {"d":{"h":"*.googletagmanager.com"}},
+      {"d":{"h":"*.mediavoice.com"}},
+      {"d":{"h":"*.mobify.com"}},
+      {"d":{"h":"*.adobedtm.com"}},
+      {"d":{"h":"*.perfectmarket.com"}},
+      {"d":{"h":"*.ensighten.com"}},
+      {"d":{"h":"*.tradelab.fr"}},
+      {"d":{"h":"*.visualrevenue.com"}},
+      {"d":{"h":"*.mediapeo2.com"}},
+      {"d":{"h":"*.kameleoon.com"}},
+      {"d":{"h":"*.ezakus.net"}},
+      {"d":{"h":"*.estat.com"}},
+      {"d":{"h":"*.adswizz.com"}},
+      {"d":{"h":"*.displaymarketplace.com"}},
+      {"d":{"h":"*.umbel.com"}},
+      {"d":{"h":"*.skimresources.com"}},
+      {"d":{"h":"*.adobetag.com"}},
+      {"d":{"h":"*.visiblemeasures.com"}},
+      {"d":{"h":"*.liverail.com"}},
+      {"d":{"h":"*.perfectaudience.com"}},
+      {"d":{"h":"*.pingdom.net"}}
     ]
   }
 }

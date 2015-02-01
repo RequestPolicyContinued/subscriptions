@@ -11,7 +11,7 @@
       "description":"This subscription is currently broken and will likely be removed. Please see https://github.com/RequestPolicyContinued/requestpolicy/issues/338 and https://github.com/RequestPolicyContinued/requestpolicy/issues/166#issuecomment-65426226."
     },
     "allow_functionality":{
-      "serial":2015011401,
+      "serial":2015020101,
       "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_functionality.json",
       "title":"Allow requests that are needed for websites to work properly",
       "description":"Contains allow rules necessary for the website to work, even if the destination domain owner is not the same person/organization as the origin domain. Rules for functionality that is not a core part of the site are not be included."

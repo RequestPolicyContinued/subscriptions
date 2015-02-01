@@ -1,7 +1,7 @@
 {
   "metadata":{
     "version":1,
-    "serial":2015011401
+    "serial":2015020101
   },
   "entries":{
     "allow":[
@@ -172,7 +172,35 @@
 		{"o":{"h":"*.delicious.com"},"d":{"h":"*.s3.amazonaws.com"}},
 		{"o":{"h":"*.thomann.de"},"d":{"h":"*.static-thomann.de"}},
 		{"o":{"h":"*.thomann.fr"},"d":{"h":"*.thomann.de"}},
-		{"o":{"h":"*.iprobot.net"},"d":{"h":"*.serverfreak.com"}}
+		{"o":{"h":"*.europe1.fr"},"d":{"h":"*.ladmedia.fr"}},
+		{"o":{"h":"*.virtualbox.org"},"d":{"h":"*.sun.com"}},
+		{"o":{"h":"*.virtualbox.org"},"d":{"h":"*.virtualbox.org"}},
+		{"o":{"h":"*.microsoft.com"},"d":{"h":"*.msecnd.net"}},
+		{"o":{"h":"*.twnsnd.co"},"d":{"h":"*.tumblr.com"}},
+		{"o":{"h":"*.startupstockphotos.com"},"d":{"h":"*.tumblr.com"}},
+		{"o":{"h":"*.moddb.com"},"d":{"h":"*.dbolical.com"}},
+		{"o":{"h":"*.gta4-mods.com"},"d":{"h":"*.gtagaming.com"}},
+		{"o":{"h":"*.time.com"},"d":{"h":"*.wp.com"}},
+		{"o":{"h":"*.time.com"},"d":{"h":"*.wordpress.com"}},
+		{"o":{"h":"*.keybase.io"},"d":{"h":"*.s3.amazonaws.com"}},
+		{"o":{"h":"*.thingiverse.com"},"d":{"h":"*.thingiverse-production.s3.amazonaws.com"}},
+		{"o":{"h":"*.thingiverse.com"},"d":{"h":"*.thingiverse-rerender.s3.amazonaws.com"}},
+		{"o":{"h":"*.thingiverse.com"},"d":{"h":"*.s3.amazonaws.com"}},
+		{"o":{"h":"*.wikia.com"},"d":{"h":"*.wikia-beacon.com"}},
+		{"o":{"h":"*.github.com"},"d":{"h":"*.media.githubusercontent.com"}},
+		{"o":{"h":"*.designspiration.net"},"d":{"h":"*.dspnimg.com"}},
+		{"o":{"h":"*.archivetextures.net"},"d":{"h":"*.storage3d.com"}},
+		{"o":{"h":"*.ecrans.fr"},"d":{"h":"*.liberation.fr"}},
+		{"o":{"h":"*.ifttt.com"},"d":{"h":"*.d3rnbxvnd0hlox.cloudfront.net"}},
+		{"o":{"h":"*.bssaudio.com"},"d":{"h":"*.harmanpro.com"}},
+		{"o":{"h":"*.lexiconpro.com"},"d":{"h":"*.harmanpro.com"}},
+		{"o":{"h":"*.dbxpro.com"},"d":{"h":"*.harmanpro.com"}},
+		{"o":{"h":"*.yamahaproaudio.com"},"d":{"h":"*.yamaha.jp"}},
+		{"o":{"h":"*.ehow.com"},"d":{"h":"*.ehownowcdn.com"}},
+		{"o":{"h":"*.dominos.fr"},"d":{"h":"*.dominosdomain.com"}},
+		{"o":{"h":"*.universetoday.com"},"d":{"h":"*.d1jqu7g1y74ds1.cloudfront.net"}},
+		{"o":{"h":"*.akg.com"},"d":{"h":"*.bestquestions.com"}},
+		{"o":{"h":"*.heise.de"},"d":{"h":"*.ix.de"}}
 	],
     "deny":[]
   }

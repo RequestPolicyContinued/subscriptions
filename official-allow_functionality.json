@@ -1,7 +1,7 @@
 {
   "metadata":{
     "version":1,
-    "serial":2015020101
+    "serial":2015021401
   },
   "entries":{
     "allow":[
@@ -200,9 +200,41 @@
 		{"o":{"h":"*.dominos.fr"},"d":{"h":"*.dominosdomain.com"}},
 		{"o":{"h":"*.universetoday.com"},"d":{"h":"*.d1jqu7g1y74ds1.cloudfront.net"}},
 		{"o":{"h":"*.akg.com"},"d":{"h":"*.bestquestions.com"}},
-		{"o":{"h":"*.heise.de"},"d":{"h":"*.ix.de"}}
+		{"o":{"h":"*.heise.de"},"d":{"h":"*.ix.de"}},
+		{"o":{"h":"*.bountysource.com"},"d":{"h":"*.d2bbtvgnhux6eq.cloudfront.net"}},
+		{"o":{"h":"*.bountysource.com"},"d":{"h":"*.akamaihd.net"}},
+		{"o":{"h":"*.lesjoiesducode.fr"},"d":{"h":"*.ljdchost.com"}},
+		{"o":{"h":"*.lefigaro.fr"},"d":{"h":"*.f1g.fr"}},
+		{"o":{"h":"*.marmiton.org"},"d":{"h":"*.marmitoncdn.org"}},
+		{"o":{"h":"*.tomsguide.com"},"d":{"h":"*.bestofmedia.com"}},
+		{"o":{"h":"*.arkos.io"},"d":{"h":"*.citizenweb.io"}},
+		{"o":{"h":"*.fusion.net"},"d":{"h":"*.wp.com"}},
+		{"o":{"h":"*.ign.com"},"d":{"h":"*.ignimgs.com"}},
+		{"o":{"h":"*.verynicesites.com"},"d":{"h":"*.verynicesites.s3.amazonaws.com"}},
+		{"o":{"h":"*.codepen.io"},"d":{"h":"*.cdpn.io"}},
+		{"o":{"h":"*.vid.me"},"d":{"h":"*.kxcdn.com"}},
+		{"o":{"h":"*.vid.me"},"d":{"h":"*.d1wst0behutosd.cloudfront.net"}},
+		{"o":{"h":"*.howstuffworks.com"},"d":{"h":"*.hswstatic.com"}},
+		{"o":{"h":"*.hitbox.tv"},"d":{"h":"*.google.com"}},
+		{"o":{"h":"*.fav.me"},"d":{"h":"*.deviantart.com"}},
+		{"o":{"h":"*.hongkiat.com"},"d":{"h":"*.netdna-cdn.com"}},
+		{"o":{"h":"*.sfgirlbybay.com"},"d":{"h":"*.netdna-cdn.com"}},
+		{"o":{"h":"*.fortawesome.github.io"},"d":{"h":"*.bootstrapcdn.com"}},
+		{"o":{"h":"*.thiswasmybest.com"},"d":{"h":"*.amazonaws.com"}},
+		{"o":{"h":"*.ultimate-guitar.com"},"d":{"h":"*.ustatik.com"}},
+		{"o":{"h":"*.jorani.org"},"d":{"h":"*.cloudflare.com"}},
+		{"o":{"h":"*.vikingcodeschool.com"},"d":{"h":"*.s3.amazonaws.com"}},
+		{"o":{"h":"*.cdiscount.com"},"d":{"h":"*.cdscdn.com"}},
+		{"o":{"h":"*.kickass.to"},"d":{"h":"*.kastatic.com"}},
+		{"o":{"h":"*.nsfwyoutube.com"},"d":{"h":"*.youtube.com"}},
+		{"o":{"h":"*.samaltman.com"},"d":{"h":"*.phaven-prod.s3.amazonaws.com"}},
+		{"o":{"h":"*.samaltman.com"},"d":{"h":"*.posthaven-assets.s3.amazonaws.com"}},
+		{"o":{"h":"*.bloomberg.com"},"d":{"h":"*.bwbx.io"}},
+		{"o":{"h":"*.codepen.io"},"d":{"h":"*.s3-us-west-2.amazonaws.com"}},
+		{"o":{"h":"*.codepen.io"},"d":{"h":"*.cloudflare.com"}},
+		{"o":{"h":"*.hansje.net"},"d":{"h":"*.cargocollective.com"}},
+		{"o":{"h":"*.indiegogo.com"},"d":{"h":"*.iggcdn.com"}}
 	],
     "deny":[]
   }
 }
-

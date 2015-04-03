@@ -2544,6 +2544,12 @@
       {"d":{"h":"*.zeusclicks.com"}},
       {"d":{"h":"*.zintext.com"}},
       {"d":{"h":"*.zmedia.com"}}
+      {"d":{"h":"*.bttrack.com"}},
+      {"d":{"h":"*.servebom.com"}},
+      {"d":{"h":"*.bkrtx.com"}},
+      {"d":{"h":"*.sonobi.com"}},
+      {"d":{"h":"*.springserve.com"}},
+      {"d":{"h":"*.taboola.com"}}
     ]
   }
 }

@@ -2552,6 +2552,7 @@
       {"d":{"h":"*.taboola.com"}}
       {"d":{"h":"*.ml314.com"}}
       {"d":{"h":"*.pointclicktrack.com"}}
+      {"d":{"h":"*.optimizely.com"}}
     ]
   }
 }

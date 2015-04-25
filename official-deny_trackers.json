@@ -1,7 +1,7 @@
 {
   "metadata":{
     "version":1,
-    "serial":2015012201
+    "serial":2015042501
   },
   "entries":{
     "allow":[
@@ -2544,6 +2544,15 @@
       {"d":{"h":"*.zeusclicks.com"}},
       {"d":{"h":"*.zintext.com"}},
       {"d":{"h":"*.zmedia.com"}}
+      {"d":{"h":"*.bttrack.com"}},
+      {"d":{"h":"*.servebom.com"}},
+      {"d":{"h":"*.bkrtx.com"}},
+      {"d":{"h":"*.sonobi.com"}},
+      {"d":{"h":"*.springserve.com"}},
+      {"d":{"h":"*.taboola.com"}}
+      {"d":{"h":"*.ml314.com"}}
+      {"d":{"h":"*.pointclicktrack.com"}}
+      {"d":{"h":"*.optimizely.com"}}
     ]
   }
 }

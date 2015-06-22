@@ -2552,7 +2552,11 @@
       {"d":{"h":"*.taboola.com"}},
       {"d":{"h":"*.ml314.com"}},
       {"d":{"h":"*.pointclicktrack.com"}},
-      {"d":{"h":"*.optimizely.com"}}
+      {"d":{"h":"*.optimizely.com"}},
+      {"d":{"h":"*.qadservice.com"}},
+      {"d":{"h":"*.popcash.net"}},
+      {"d":{"h":"*.jujzh9va.com"}},
+      {"d":{"h":"*.putags.com"}}
     ]
   }
 }

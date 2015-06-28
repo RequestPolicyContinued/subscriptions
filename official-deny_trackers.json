@@ -1,7 +1,7 @@
 {
   "metadata":{
     "version":1,
-    "serial":2015042501
+    "serial":2015062801
   },
   "entries":{
     "allow":[
@@ -2552,7 +2552,28 @@
       {"d":{"h":"*.taboola.com"}},
       {"d":{"h":"*.ml314.com"}},
       {"d":{"h":"*.pointclicktrack.com"}},
-      {"d":{"h":"*.optimizely.com"}}
+      {"d":{"h":"*.optimizely.com"}},
+      {"d":{"h":"*.zdbb.net"}},
+      {"d":{"h":"*.tiqcdn.com"}},
+      {"d":{"h":"*.cedexis-radar.net"}},
+      {"d":{"h":"*.mxpnl.com"}},
+      {"d":{"h":"*.gosquared.com"}},
+      {"d":{"h":"*.visualwebsiteoptimizer.com"}},
+      {"d":{"h":"*.ubm-us.net"}},
+      {"d":{"h":"*.brightcove.com"}},
+      {"d":{"h":"*.techweb.com"}},
+      {"d":{"h":"*.natoms.com"}},
+      {"d":{"h":"*.nuggad.net"}},
+      {"d":{"h":"*.lijit.com"}},
+      {"d":{"h":"*.netmng.com"}},
+      {"d":{"h":"*.gisi.fr"}},
+      {"d":{"h":"*.cloud-media.fr"}},
+      {"d":{"h":"*.adlpartner.com"}},
+      {"d":{"h":"*.outbrain.com"}},
+      {"d":{"h":"*.adyoulike.com"}},
+      {"d":{"h":"*.taboolasyndication.com"}},
+      {"d":{"h":"*.adverline.com"}},
+      {"d":{"h":"*.usersnap.com"}}
     ]
   }
 }

@@ -161,6 +161,8 @@
       {"o":{"h":"*.wireshark.net"},"d":{"h":"*.wireshark.org"}},
       {"o":{"h":"*.msn.com"},"d":{"h":"*.s-msn.com"}},
       {"o":{"h":"*.twitch.tv"},"d":{"h":"*.jtvnw.net"}},
+      {"o":{"h":"*.twitch.tv"},"d":{"h":"*.justin.tv"}},
+      {"o":{"h":"*.twitch.tv"},"d":{"h":"*.ttvnw.net"}},
       {"o":{"h":"*.websitegrader.com"},"d":{"h":"*.grader.com"}},
       {"o":{"h":"*.grader.com"},"d":{"h":"*.hsappstatic.net"}},
       {"o":{"h":"*.flattr.com"},"d":{"h":"*.flattr.net"}},

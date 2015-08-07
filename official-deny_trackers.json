@@ -2590,7 +2590,23 @@
       {"d":{"h":"*.directrev.com"}},
       {"d":{"h":"*.adnotch.com"}},
       {"d":{"h":"*.ad-center.com"}},
-      {"d":{"h":"*.mdn2015x1.com"}}
+      {"d":{"h":"*.mdn2015x1.com"}},
+      {"d":{"h":"*.mdn2015x2.com"}},
+      {"d":{"h":"*.theads.me"}},
+      {"d":{"h":"*.stamplive.com"}},
+      {"d":{"h":"*.clkrev.com"}},
+      {"d":{"h":"*.srvpub.com"}},
+      {"d":{"h":"*.mtagmonetizationb.com"}},
+      {"d":{"h":"*.duggiads.com"}},
+      {"d":{"h":"*.a2pub.com"}},
+      {"d":{"h":"*.onclasrv.com"}},
+      {"d":{"h":"*.zoglafi.info"}},
+      {"d":{"h":"*.philipstreehouse.info"}},
+      {"d":{"h":"*.oclasrv.com"}},
+      {"d":{"h":"*.wsockd.com"}},
+      {"d":{"h":"*.q1mediahydraplatform.com"}},
+      {"d":{"h":"*.rackcdn.com"}},
+      {"d":{"h":"*.hs-analytics.net"}}
     ]
   }
 }

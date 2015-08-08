@@ -2606,7 +2606,8 @@
       {"d":{"h":"*.wsockd.com"}},
       {"d":{"h":"*.q1mediahydraplatform.com"}},
       {"d":{"h":"*.rackcdn.com"}},
-      {"d":{"h":"*.hs-analytics.net"}}
+      {"d":{"h":"*.hs-analytics.net"}},
+      {"d":{"h":"*.zumads.com"}}
     ]
   }
 }

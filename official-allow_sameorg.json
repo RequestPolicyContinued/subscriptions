@@ -1,7 +1,7 @@
 {
   "metadata":{
     "version":1,
-    "serial":2014122101
+    "serial":2015081901
   },
   "entries":{
     "allow":[
@@ -161,6 +161,8 @@
       {"o":{"h":"*.wireshark.net"},"d":{"h":"*.wireshark.org"}},
       {"o":{"h":"*.msn.com"},"d":{"h":"*.s-msn.com"}},
       {"o":{"h":"*.twitch.tv"},"d":{"h":"*.jtvnw.net"}},
+      {"o":{"h":"*.twitch.tv"},"d":{"h":"*.justin.tv"}},
+      {"o":{"h":"*.twitch.tv"},"d":{"h":"*.ttvnw.net"}},
       {"o":{"h":"*.websitegrader.com"},"d":{"h":"*.grader.com"}},
       {"o":{"h":"*.grader.com"},"d":{"h":"*.hsappstatic.net"}},
       {"o":{"h":"*.flattr.com"},"d":{"h":"*.flattr.net"}},
@@ -280,7 +282,6 @@
       {"o":{"h":"*.google.it"},"d":{"h":"*.gstatic.com"}},
       {"o":{"h":"*.google.es"},"d":{"h":"*.google.com"}},
       {"o":{"h":"*.google.es"},"d":{"h":"*.gstatic.com"}},
-      {"o":{"h":"*.163.com"},"d":{"h":"*.netease.com"}},
       {"o":{"h":"*.soso.com"},"d":{"h":"*.sogou.com"}},
       {"o":{"h":"*.soso.com"},"d":{"h":"*.sogoucdn.com"}},
       {"o":{"h":"*.xhamster.com"},"d":{"h":"*.xhcdn.com"}},
@@ -311,7 +312,7 @@
       {"o":{"h":"*.buzzfeed.com"},"d":{"h":"*.buzzfed.com"}},
       {"o":{"h":"*.pixnet.net"},"d":{"h":"*.pimg.tw"}},
       {"o":{"h":"*.pixnet.net"},"d":{"h":"*.pixfs.net"}},
-      {"o":{"h":"*.bestbuy.com"},"d":{"h":"*.bbystatic.com"}}
+      {"o":{"h":"*.bestbuy.com"},"d":{"h":"*.bbystatic.com"}},
     ],
     "deny":[]
   }

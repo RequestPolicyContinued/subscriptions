@@ -2707,7 +2707,11 @@
       {"d":{"h":"*.q1mediahydraplatform.com"}},
       {"d":{"h":"*.rackcdn.com"}},
       {"d":{"h":"*.hs-analytics.net"}},
-      {"d":{"h":"*.zumads.com"}}
+      {"d":{"h":"*.zumads.com"}},
+      {"d":{"h":"*.qadservice.com"}},
+      {"d":{"h":"*.popcash.net"}},
+      {"d":{"h":"*.jujzh9va.com"}},
+      {"d":{"h":"*.putags.com"}}
     ]
   }
 }

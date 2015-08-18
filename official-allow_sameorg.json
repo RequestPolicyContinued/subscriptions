@@ -312,7 +312,7 @@
       {"o":{"h":"*.buzzfeed.com"},"d":{"h":"*.buzzfed.com"}},
       {"o":{"h":"*.pixnet.net"},"d":{"h":"*.pimg.tw"}},
       {"o":{"h":"*.pixnet.net"},"d":{"h":"*.pixfs.net"}},
-      {"o":{"h":"*.bestbuy.com"},"d":{"h":"*.bbystatic.com"}},
+      {"o":{"h":"*.bestbuy.com"},"d":{"h":"*.bbystatic.com"}}
     ],
     "deny":[]
   }

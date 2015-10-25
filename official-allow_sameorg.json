@@ -5,6 +5,7 @@
   },
   "entries":{
     "allow":[
+      {"o":{"h":"*.leparisien.fr"},"d":{"h":"*.lprs1.fr"}},
       {"o":{"h":"*.amazon.ca"},"d":{"h":"*.images-amazon.com"}},
       {"o":{"h":"*.amazon.ca"},"d":{"h":"*.ssl-images-amazon.com"}},
       {"o":{"h":"*.amazon.com"},"d":{"h":"*.images-amazon.com"}},

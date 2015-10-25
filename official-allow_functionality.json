@@ -40,8 +40,6 @@
 		{"o":{"h":"*.google.com"},"d":{"h":"*.google.fr"}},
 		{"o":{"h":"*.photoswipe.com"},"d":{"h":"*.staticflickr.com"}},
 		{"o":{"h":"*.google.com"},"d":{"h":"*.npackd.appspot.com"}},
-		{"o":{"h":"*.leparisien.fr"},"d":{"h":"*.lprs1.fr"}},
-		{"o":{"h":"*.arstechnica.com"},"d":{"h":"*.arstechnica.net"}},
 		{"o":{"h":"*.theonion.com"},"d":{"h":"*.onionstatic.com"}},
 		{"o":{"h":"*.gmail.com"},"d":{"h":"*.google.com"}},
 		{"o":{"h":"*.autodesk.com"},"d":{"h":"*.autodesk.net"}},

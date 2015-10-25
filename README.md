@@ -33,7 +33,7 @@ If you want your rules **added** to the official subscriptions, please mind the 
  * In your RequestPolicy preferences, enable the subscription you want to work on to avoid duplicating already established rules.
  * **Allow rules should be kept to a minimum** (no pretty fonts, no tracking scripts, no ad networks, no optional sharing widgets...)
  * Do not reorder/sort existing rules. (Rules that affect a particular site should stay grouped, and this helps reviewing your changes). 
- * Check for duplicate rules (eg. `sort official-allow_sameorg.json |uniq -c |sort`), check JSON validity (http://jsonlint.com/) before doing a pull request.
+ * Check for duplicate rules (eg. `egrep -ho '\{.*\}' *.json | sort | uniq -d`), check JSON validity (http://jsonlint.com/) before doing a pull request.
  * Read this README
 
 

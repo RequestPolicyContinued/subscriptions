@@ -28,7 +28,9 @@ checks := check_json_validity \
 check test: $(checks)
 
 check_json_validity:
-	# check_json_validity not implemented yet
+	@for file in $(all_json_files) ; do \
+	echo -n "$$file: "; (cat official.json | python -m json.tool > /dev/null && echo "Valid JSON") || echo "Invalid JSON" ; \
+	done
 
 
 # _________________________

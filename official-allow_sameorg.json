@@ -94,7 +94,7 @@
       {"o":{"h":"*.soundcloud.com"},"d":{"h":"*.sndcdn.com"}},
       {"o":{"h":"*.dailymotion.com"},"d":{"h":"*.dmcdn.net"}},
       {"o":{"h":"*.dailymotion.fr"},"d":{"h":"*.dailymotion.com"}},
-      {"o":{"h":"*.reddit.com"},"d":{"h":"*.redditmedia.com"}},
+      {"o":{"h":"*.reddit.com"},"d":{"h":"*.thumbs.redditmedia.com"}},
       {"o":{"h":"*.reddit.com"},"d":{"h":"*.redditstatic.com"}},
       {"o":{"h":"*.godaddy.com"},"d":{"h":"*.wsimg.com"}},
       {"o":{"h":"*.android.com"},"d":{"h":"*.gstatic.com"}},

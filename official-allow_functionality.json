@@ -72,8 +72,6 @@
 		{"o":{"h":"*.leboncoin.fr"},"d":{"h":"193.164.197.60"}},
 		{"o":{"h":"*.leboncoin.fr"},"d":{"h":"193.164.197.50"}},
 		{"o":{"h":"*.leboncoin.fr"},"d":{"h":"193.164.197.30"}},
-		{"o":{"h":"*.reddit.com"},"d":{"h":"*.redditstatic.com"}},
-		{"o":{"h":"*.reddit.com"},"d":{"h":"*.redditmedia.com"}},
 		{"o":{"h":"*.reddit.com"},"d":{"h":"*.s3.amazonaws.com"}},
 		{"o":{"h":"*.stackoverflow.com"},"d":{"h":"*.gravatar.com"}},
 		{"o":{"h":"*.stackoverflow.com"},"d":{"h":"*.sstatic.net"}},

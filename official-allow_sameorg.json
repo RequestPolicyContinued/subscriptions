@@ -318,7 +318,21 @@
       {"o":{"h":"*.buzzfeed.com"},"d":{"h":"*.buzzfed.com"}},
       {"o":{"h":"*.pixnet.net"},"d":{"h":"*.pimg.tw"}},
       {"o":{"h":"*.pixnet.net"},"d":{"h":"*.pixfs.net"}},
-      {"o":{"h":"*.bestbuy.com"},"d":{"h":"*.bbystatic.com"}}
+      {"o":{"h":"*.bestbuy.com"},"d":{"h":"*.bbystatic.com"}},
+      {"o":{"h":"*.24tv.ua"},"d":{"h":"*.luxnet.ua"}},
+      {"o":{"h":"*.privat24.ua"},"d":{"h":"*.privatbank.ua"}},
+      {"o":{"h":"*.habrahabr.ru"},"d":{"h":"*.habracdn.net"}},
+      {"o":{"h":"*.habrastorage.org"},"d":{"h":"*.hsto.org"}},
+      {"o":{"h":"*.habracdn.net"},"d":{"h":"*.habrastorage.org"}},
+      {"o":{"h":"*.habrahabr.ru"},"d":{"h":"*.hsto.org"}},
+      {"o":{"h":"*.geektimes.ru"},"d":{"h":"*.habrastorage.org"}},
+      {"o":{"h":"*.geektimes.ru"},"d":{"h":"*.habracdn.net"}},
+      {"o":{"h":"*.megamozg.ru"},"d":{"h":"*.habrastorage.org"}},
+      {"o":{"h":"*.megamozg.ru"},"d":{"h":"*.habracdn.net"}},
+      {"o":{"h":"*.tmfeed.ru"},"d":{"h":"*.habrahabr.ru"}},
+      {"o":{"h":"*.toster.ru"},"d":{"h":"*.habracdn.net"}},
+      {"o":{"h":"*.moikrug.ru"},"d":{"h":"*.habrastorage.org"}},
+      {"o":{"h":"*.moikrug.ru"},"d":{"h":"*.habracdn.net"}}
     ],
     "deny":[]
   }

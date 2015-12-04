@@ -38,7 +38,9 @@ If you want your rules **added** to the official subscriptions, please mind the 
 
 
 #### Adding rules
-You can also help by adding your rules for sites you like:
+You can also help by adding your rules for sites you like (**[Example proper pull request/patch](https://github.com/RequestPolicyContinued/subscriptions/pull/38)**
+)
+
 
  * [Fork](https://github.com/RequestPolicyContinued/subscriptions/fork) this repository.
  * Visit your favorite sites, one by one. You can also work on top websites from http://www.alexa.com/topsites/countries

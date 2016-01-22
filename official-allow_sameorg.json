@@ -369,7 +369,22 @@
       {"o":{"h":"*.uni-karlsruhe.de"},"d":{"h":"*.kit.edu"}},
       {"o":{"h":"*.office.com"},"d":{"h":"*.microsoft.com"}},
       {"o":{"h":"*.xda-developers.com"},"d":{"h":"*.xda-cdn.com"}},
-      {"o":{"h":"*.heise.de"},"d":{"h":"*.ix.de"}}
+      {"o":{"h":"*.heise.de"},"d":{"h":"*.ix.de"}},
+      {"o":{"h":"*.1und1.de"},"d":{"h":"*.static-1and1.com"}},
+      {"o":{"h":"*.t-online.de"},"d":{"h":"*.telekom.com"}},
+      {"o":{"h":"*.telekom.com"},"d":{"h":"*.t-online.de"}},
+      {"o":{"h":"*.t-online.de"},"d":{"h":"*.telekom.de"}},
+      {"o":{"h":"*.aliexpress.com"},"d":{"h":"*.alipay.com"}},
+      {"o":{"h":"*.alipay.com"},"d":{"h":"*.alibaba.com"}},
+      {"o":{"h":"*.alibaba.com"},"d":{"h":"*.aliexpress.com"}},
+      {"o":{"h":"*.ebay.de"},"d":{"h":"*.ebay-kleinanzeigen.de"}},
+      {"o":{"h":"*.eventim.de"},"d":{"h":"*.eventim.com"}},
+      {"o":{"h":"*.microsoft.com"},"d":{"h":"*.gfx.ms"}},
+      {"o":{"h":"*.microsoft.com"},"d":{"h":"*.onestore.ms"}},
+      {"o":{"h":"*.microsoft.com"},"d":{"h":"*.microsoftstore.com"}},
+      {"o":{"h":"*.o2online.de"},"d":{"h":"*.o2.de"}},
+      {"o":{"h":"*.skype.com"},"d":{"h":"*.s-microsoft.com"}},
+      {"o":{"h":"*.skype.com"},"d":{"h":"*.microsoft.com"}}
     ],
     "deny":[]
   }

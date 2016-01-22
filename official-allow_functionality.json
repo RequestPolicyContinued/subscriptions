@@ -258,7 +258,8 @@
 		{"o":{"h":"*.breakofreality.com"},"d":{"h":"*.wp.com"}},
 		{"o":{"h":"*.physicsdatabase.com"},"d":{"h":"*.pinimg.com"}},
 		{"o":{"h":"*.physicsdatabase.com"},"d":{"h":"*.bookmanager.com"}},
-		{"o":{"h":"*.jojawendt.com"},"d":{"h":"*.server-he.de"}}
+		{"o":{"h":"*.jojawendt.com"},"d":{"h":"*.server-he.de"}},
+		{"o":{"h":"*.sourceforge.net"},"d":{"h":"*.fsdn.com"}}
 	],
     "deny":[]
   }

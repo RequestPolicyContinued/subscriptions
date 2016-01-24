@@ -2732,7 +2732,14 @@
       {"d":{"h":"*.adclear.net"}},
       {"d":{"h":"*.scarabresearch.com"}},
       {"d":{"h":"*.scoutanalytics.net"}},
-      {"d":{"h":"*.ec-track.com"}}
+      {"d":{"h":"*.ec-track.com"}},
+      {"d":{"h":"*.browser-update.org"}},
+      {"d":{"h":"*.sascdn.com"}},
+      {"d":{"h":"*.disqusads.com"}},
+      {"d":{"h":"*.lp4.io"}},
+      {"d":{"h":"*.omsnative.de"}},
+      {"d":{"h":"*.edgesuite.net"}},
+      {"d":{"h":"*.emcdn.net"}}
     ]
   }
 }

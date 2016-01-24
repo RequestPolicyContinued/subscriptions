@@ -398,7 +398,7 @@
       {"o":{"h":"*.framadate.org"},"d":{"h":"*.framasoft.org"}},
       {"o":{"h":"*.framabee.org"},"d":{"h":"*.framasoft.org"}},
       {"o":{"h":"*.sueddeutsche.de"},"d":{"h":"*.sueddeutsche.com"}},
-      {"o":{"h":"*.braunschweiger-zeitung.de"},"d":{"h":"*.bzv-service.de"}},
+      {"o":{"h":"*.braunschweiger-zeitung.de"},"d":{"h":"*.bzv-service.de"}}
     ],
     "deny":[]
   }

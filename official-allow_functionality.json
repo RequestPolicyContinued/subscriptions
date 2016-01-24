@@ -259,7 +259,12 @@
 		{"o":{"h":"*.physicsdatabase.com"},"d":{"h":"*.pinimg.com"}},
 		{"o":{"h":"*.physicsdatabase.com"},"d":{"h":"*.bookmanager.com"}},
 		{"o":{"h":"*.jojawendt.com"},"d":{"h":"*.server-he.de"}},
-		{"o":{"h":"*.sourceforge.net"},"d":{"h":"*.fsdn.com"}}
+		{"o":{"h":"*.sourceforge.net"},"d":{"h":"*.fsdn.com"}},
+		{"o":{"h":"*.maclaw.pl"},"d":{"h":"*.novafusion.pl"}},
+		{"o":{"h":"*.novafusion.pl"},"d":{"h":"*.polazag.com"}},
+		{"o":{"h":"*.opengapps.org"},"d":{"h":"*.github.com"}},
+		{"o":{"h":"*.welt.de"},"d":{"h":"*.weltsport.net"}},
+		{"o":{"h":"*.abendblatt.de"},"d":{"h":"*.weltsport.net"}}
 	],
     "deny":[]
   }

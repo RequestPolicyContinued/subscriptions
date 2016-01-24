@@ -384,7 +384,21 @@
       {"o":{"h":"*.microsoft.com"},"d":{"h":"*.microsoftstore.com"}},
       {"o":{"h":"*.o2online.de"},"d":{"h":"*.o2.de"}},
       {"o":{"h":"*.skype.com"},"d":{"h":"*.s-microsoft.com"}},
-      {"o":{"h":"*.skype.com"},"d":{"h":"*.microsoft.com"}}
+      {"o":{"h":"*.skype.com"},"d":{"h":"*.microsoft.com"}},
+      {"o":{"h":"*.bild.de"},"d":{"h":"*.bildstatic.de"}},
+      {"o":{"h":"*.web.de"},"d":{"h":"*.ui-portal.de"}},
+      {"o":{"h":"*.gmx.net"},"d":{"h":"*.ui-portal.de"}},
+      {"o":{"h":"*.stepstone.de"},"d":{"h":"*.stepstone.com"}},
+      {"o":{"h":"*.autoscout24.de"},"d":{"h":"*.autoscout24.com"}},
+      {"o":{"h":"*.autoscout24.de"},"d":{"h":"*.autoscout24.net"}},
+      {"o":{"h":"*.framapad.org"},"d":{"h":"*.framasoft.org"}},
+      {"o":{"h":"*.wordpress.org"},"d":{"h":"*.wordpress.com"}},
+      {"o":{"h":"*.framapic.org"},"d":{"h":"*.framasoft.org"}},
+      {"o":{"h":"*.framapad.org"},"d":{"h":"*.framatube.org"}},
+      {"o":{"h":"*.framadate.org"},"d":{"h":"*.framasoft.org"}},
+      {"o":{"h":"*.framabee.org"},"d":{"h":"*.framasoft.org"}},
+      {"o":{"h":"*.sueddeutsche.de"},"d":{"h":"*.sueddeutsche.com"}},
+      {"o":{"h":"*.braunschweiger-zeitung.de"},"d":{"h":"*.bzv-service.de"}},
     ],
     "deny":[]
   }

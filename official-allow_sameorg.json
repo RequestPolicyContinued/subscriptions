@@ -33,6 +33,8 @@
       {"o":{"h":"*.myspace.com"},"d":{"h":"*.myspacecdn.com"}},
       {"o":{"h":"*.paypal.com"},"d":{"h":"*.paypalobjects.com"}},
       {"o":{"h":"*.sf.net"},"d":{"h":"*.sourceforge.net"}},
+      {"o":{"h":"*.slack.com"},"d":{"h":"*.slack-edge.com"}},
+      {"o":{"h":"*.slack.com"},"d":{"h":"*.slack-msgs.com"}},
       {"o":{"h":"*.askubuntu.com"},"d":{"h":"*.sstatic.net"}},
       {"o":{"h":"*.serverfault.com"},"d":{"h":"*.sstatic.net"}},
       {"o":{"h":"*.superuser.com"},"d":{"h":"*.sstatic.net"}},

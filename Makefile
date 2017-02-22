@@ -21,17 +21,28 @@ subscriptions := $(filter-out $(subscription_lists),$(all_json_files))
 
 # all checks and their order of execution
 checks := check_json_validity \
-	check_duplicate_lines
+	check_duplicate_lines \
+	check_serials
 
 .PHONY: check test
 .PHONY: $(checks)
 check test: $(checks)
+
+# ____________________
+# check JSON validity
+#
 
 check_json_validity:
 	@for file in $(all_json_files) ; do \
 	echo -n "$$file: "; (cat official.json | python -m json.tool > /dev/null && echo "Valid JSON") || echo "Invalid JSON" ; \
 	done
 
+# __________________________
+# check for matching serials
+#
+
+check_serials:
+	python check_serials.py
 
 # _________________________
 # check for duplicate lines

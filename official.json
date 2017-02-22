@@ -21,12 +21,6 @@
       "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_sameorg.json",
       "title":"Allow destinations that belong to the same organization as the origin domain",
       "description":"Contains only rules absolutely for the website's core functionality to work. If the destination domain is not owned by the same organization, person, or company as the origin, the rule does not qualify for this subscription."
-    },
-    "deny_trackers":{
-      "serial":2015081901,
-      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-deny_trackers.json",
-      "title":"Block domains known for tracking your web browsing",
-      "description":"This contains a list of websites that are known for tracking your browsing across the web. This is mainly useful to provide a minimal security/privacy when using the _Allow all requests by default_ default policy."
     }
   }
 }

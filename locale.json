@@ -12,10 +12,6 @@
       "allow_sameorg":{
         "title":"Accepter les requêtes vers des destinations appartenant à la même organisation que le domaine d'origine",
         "description":"Contient des règles 'accepter' absolument nécessaires pour un bon fonctionnement des fonctionnalités principales de certains sites, ET dont le propriétaire du domaine de destination de la requête est le même que celui du domaine d'origine."
-      },
-      "deny_trackers":{
-        "title":"Bloquer les requêtes vers des domaines connus pour tracer votre navigation",
-        "description":"Cette souscription contient une liste de domaines connus pour surveiller/tracer votre navigation à travers le Web. Elle est particulièrement utile pour fournir une sécurité/confidentialité minimale si vous utilisez _Accepter les requêtes_ comme politique par défaut."
       }
     }
   }

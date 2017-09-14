@@ -10,6 +10,11 @@
       "title":"Allow requests for embedded content such as images and videos",
       "description":"This subscription is currently broken and will likely be removed. Please see https://github.com/RequestPolicyContinued/requestpolicy/issues/338 and https://github.com/RequestPolicyContinued/requestpolicy/issues/166#issuecomment-65426226."
     },
+    "allow_extensions":{
+      "serial":2017091401,
+      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_extensions.json",
+      "title":"Allow requests that are needed for other extensions to work properly"
+    },
     "allow_functionality":{
       "serial":2015102502,
       "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_functionality.json",

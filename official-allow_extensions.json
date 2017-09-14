@@ -1,8 +1,16 @@
 {
-  "entries":{
-  },
   "metadata":{
     "version":1,
-    "serial":2017091401
+    "serial":2017091402
+  },
+  "entries":{
+    "allow":[
+      {
+        "o":{"s":"moz-extension","h":"8cbf738f-36a0-4219-8dda-d1e53eb26194"},
+        "d":{"s":"http","h":"127.0.0.1","port":23119}
+      }
+    ],
+    "deny":[
+    ]
   }
 }

@@ -21,6 +21,11 @@
       "title":"Allow requests that are needed for websites to work properly",
       "description":"Contains allow rules necessary for the website to work, even if the destination domain owner is not the same person/organization as the origin domain. Rules for functionality that is not a core part of the site are not be included."
     },
+    "allow_mozilla":{
+      "serial":2017091401,
+      "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_mozilla.json",
+      "title":"Allow requests related to Mozilla and Firefox websites"
+    },
     "allow_sameorg":{
       "serial":2015120401,
       "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_sameorg.json",

@@ -11,7 +11,7 @@
       "description":"This subscription is currently broken and will likely be removed. Please see https://github.com/RequestPolicyContinued/requestpolicy/issues/338 and https://github.com/RequestPolicyContinued/requestpolicy/issues/166#issuecomment-65426226."
     },
     "allow_extensions":{
-      "serial":2017091401,
+      "serial":2017091402,
       "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_extensions.json",
       "title":"Allow requests that are needed for other extensions to work properly"
     },

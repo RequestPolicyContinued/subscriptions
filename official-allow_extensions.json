@@ -1,10 +1,14 @@
 {
   "metadata":{
     "version":1,
-    "serial":2017091402
+    "serial":2017091501
   },
   "entries":{
     "allow":[
+      {
+        "o":{"s":"moz-extension","h":"b438c401-e7cb-4e34-8480-fc923b364997"},
+        "d":{"s":"https","h":"*","port":"*"}
+      },
       {
         "o":{"s":"moz-extension","h":"8cbf738f-36a0-4219-8dda-d1e53eb26194"},
         "d":{"s":"http","h":"127.0.0.1","port":23119}

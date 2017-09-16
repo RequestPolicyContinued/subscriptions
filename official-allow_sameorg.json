@@ -332,7 +332,9 @@
       {"o":{"h":"*.tmfeed.ru"},"d":{"h":"*.habrahabr.ru"}},
       {"o":{"h":"*.toster.ru"},"d":{"h":"*.habracdn.net"}},
       {"o":{"h":"*.moikrug.ru"},"d":{"h":"*.habrastorage.org"}},
-      {"o":{"h":"*.moikrug.ru"},"d":{"h":"*.habracdn.net"}}
+      {"o":{"h":"*.moikrug.ru"},"d":{"h":"*.habracdn.net"}},
+      {"o":{"h":"*.microsoft.com"},"d":{"h":"*.live.com"}},
+      {"o":{"h":"*.live.com"},"d":{"h":"*.microsoft.com"}}
     ],
     "deny":[]
   }

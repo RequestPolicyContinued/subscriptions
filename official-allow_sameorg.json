@@ -1,7 +1,7 @@
 {
   "metadata":{
     "version":1,
-    "serial":2015120401
+    "serial":2018022701
   },
   "entries":{
     "allow":[
@@ -332,7 +332,10 @@
       {"o":{"h":"*.tmfeed.ru"},"d":{"h":"*.habrahabr.ru"}},
       {"o":{"h":"*.toster.ru"},"d":{"h":"*.habracdn.net"}},
       {"o":{"h":"*.moikrug.ru"},"d":{"h":"*.habrastorage.org"}},
-      {"o":{"h":"*.moikrug.ru"},"d":{"h":"*.habracdn.net"}}
+      {"o":{"h":"*.moikrug.ru"},"d":{"h":"*.habracdn.net"}},
+      {"o":{"h":"*.discordapp.com"},"d":{"h":"*.discordapp.com"}},
+      {"o":{"h":"*.discordapp.com"},"d":{"h":"*.discordapp.net"}},
+      {"o":{"s":"https","h":"*.discordapp.com"},"d":{"s":"wss","h":"*.discord.gg"}}
     ],
     "deny":[]
   }

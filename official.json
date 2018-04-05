@@ -27,7 +27,7 @@
       "title":"Allow requests related to Mozilla and Firefox websites"
     },
     "allow_sameorg":{
-      "serial":2018022701,
+      "serial":2018040501,
       "url":"https://raw.githubusercontent.com/RequestPolicyContinued/subscriptions/master/official-allow_sameorg.json",
       "title":"Allow destinations that belong to the same organization as the origin domain",
       "description":"Contains only rules absolutely for the website's core functionality to work. If the destination domain is not owned by the same organization, person, or company as the origin, the rule does not qualify for this subscription."

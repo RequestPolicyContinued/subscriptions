@@ -1,7 +1,7 @@
 {
   "metadata":{
     "version":1,
-    "serial":2018022701
+    "serial":2018040501
   },
   "entries":{
     "allow":[
@@ -169,6 +169,7 @@
       {"o":{"h":"*.twitch.tv"},"d":{"h":"*.jtvnw.net"}},
       {"o":{"h":"*.twitch.tv"},"d":{"h":"*.justin.tv"}},
       {"o":{"h":"*.twitch.tv"},"d":{"h":"*.ttvnw.net"}},
+      {"o":{"h":"*.twitch.tv"},"d":{"h":"*.twitchcdn.net"}},
       {"o":{"h":"*.websitegrader.com"},"d":{"h":"*.grader.com"}},
       {"o":{"h":"*.grader.com"},"d":{"h":"*.hsappstatic.net"}},
       {"o":{"h":"*.flattr.com"},"d":{"h":"*.flattr.net"}},

@@ -12,6 +12,7 @@
       {"o":{"h":"*.amazon.fr"},"d":{"h":"*.images-amazon.com"}},
       {"o":{"h":"*.amazon.de"},"d":{"h":"*.images-amazon.com"}},
       {"o":{"h":"*.aol.com"},"d":{"h":"*.aolcdn.com"}},
+      {"o":{"h":"*.apple.com"},"d":{"h":"*.mzstatic.com"}},
       {"o":{"h":"*.ebay.ca"},"d":{"h":"*.ebaystatic.com"}},
       {"o":{"h":"*.ebay.com"},"d":{"h":"*.ebaystatic.com"}},
       {"o":{"h":"*.ebay.fr"},"d":{"h":"*.ebaystatic.com"}},

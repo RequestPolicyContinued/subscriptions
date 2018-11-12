@@ -112,6 +112,7 @@
       {"o":{"h":"*.mozilla.org"},"d":{"h":"*.mozilla.net"}},
       {"o":{"h":"*.yelp.com"},"d":{"h":"*.yelpcdn.com"}},
       {"o":{"h":"*.twitter.com"},"d":{"h":"*.twimg.com"}},
+      {"o":{"h":"*.tweakers.net"},"d":{"h":"*.tweakimg.net"}},
       {"o":{"h":"*.pricegrabber.com"},"d":{"h":"*.pgcdn.com"}},
       {"o":{"h":"*.wolframalpha.com"},"d":{"h":"*.wolframcdn.com"}},
       {"o":{"h":"*.bugzilla.org"},"d":{"h":"*.mozilla.org"}},
